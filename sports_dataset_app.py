@@ -9,6 +9,8 @@ import streamlit as st
 # ------------------------
 # 1. Create Sample Dataset
 # ------------------------
+df = pd.read_csv("sports_dataset.csv")
+
 np.random.seed(42)
 n = 100
 
